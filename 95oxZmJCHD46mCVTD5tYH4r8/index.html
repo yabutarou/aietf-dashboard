@@ -1,0 +1,68 @@
+<!doctype html><html lang='ja'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><meta name='robots' content='noindex,nofollow'><title>AI ETF</title><style>
+:root { color-scheme: light dark; --bg:#fff; --fg:#16181d; --muted:#6b7280;
+        --line:#e5e7eb; --card:#fafafa; --up:#0b8a4b; --down:#c0392b; --accent:#3b6ef5; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0f1115; --fg:#e8eaed; --muted:#9aa1ab; --line:#262a31; --card:#171a20;
+          --up:#3ecf8e; --down:#f2666b; --accent:#7aa2ff; } }
+* { box-sizing:border-box; }
+body { margin:0; padding:24px 16px 64px; background:var(--bg); color:var(--fg);
+       font:15px/1.6 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; }
+.wrap { max-width:880px; margin:0 auto; }
+h1 { font-size:19px; margin:0 0 2px; letter-spacing:.02em; }
+h2 { font-size:14px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+     margin:32px 0 10px; font-weight:600; }
+.sub { color:var(--muted); font-size:13px; margin-bottom:24px; }
+.hero { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; }
+.big { font-size:34px; font-weight:650; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:16px; margin-top:16px; }
+.k { color:var(--muted); font-size:12px; }
+.v { font-size:17px; font-weight:600; font-variant-numeric:tabular-nums; }
+.up { color:var(--up); } .down { color:var(--down); }
+.tablewrap { overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; font-size:14px; }
+th,td { padding:10px 12px; text-align:right; border-bottom:1px solid var(--line); white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; }
+th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+tr:last-child td { border-bottom:none; }
+.bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden; min-width:60px; }
+.bar > i { display:block; height:100%; background:var(--accent); }
+.note { color:var(--muted); font-size:13px; background:var(--card); border:1px solid var(--line);
+        border-radius:10px; padding:12px 14px; margin-top:12px; }
+.empty { color:var(--muted); padding:20px; text-align:center; }
+a { color:var(--accent); }
+
+.alert { border-radius:12px; padding:16px 18px; margin:20px 0; border:1px solid;
+         display:flex; gap:12px; align-items:flex-start; }
+.alert .icon { font-size:20px; line-height:1.2; }
+.alert h3 { margin:0 0 4px; font-size:15px; }
+.alert p { margin:0; font-size:13px; color:var(--muted); }
+.alert.act { background:color-mix(in srgb, var(--accent) 10%, var(--bg));
+             border-color:var(--accent); }
+.alert.quiet { background:var(--card); border-color:var(--line); }
+.tag { display:inline-block; font-size:12px; font-weight:600; padding:2px 8px;
+       border-radius:999px; margin-right:6px; }
+.tag.sell { background:color-mix(in srgb, var(--down) 18%, var(--bg)); color:var(--down); }
+.tag.buy  { background:color-mix(in srgb, var(--up) 18%, var(--bg)); color:var(--up); }
+.chart { border:1px solid var(--line); border-radius:12px; padding:12px 8px 4px; background:var(--card); }
+.chart svg { display:block; width:100%; height:auto; }
+.chart .gridline { stroke:var(--line); stroke-width:1; }
+.chart .zero { stroke:var(--muted); stroke-width:1; stroke-dasharray:3 3; opacity:.6; }
+.chart .series { fill:none; stroke:var(--accent); stroke-width:2;
+                 stroke-linejoin:round; stroke-linecap:round; }
+.chart .tick { fill:var(--muted); font-size:10px; }
+.chart .last { fill:var(--accent); }
+.chart .lastlabel { fill:var(--fg); font-size:11px; font-weight:600; }
+.disclaimer { color:var(--muted); font-size:12px; margin-top:32px; padding-top:16px;
+              border-top:1px solid var(--line); }
+.ratio { display:flex; align-items:center; gap:8px; justify-content:flex-end; }
+.ratio .bar { flex:1 1 auto; max-width:110px; }
+</style></head><body><div class='wrap'><h1>AI ETF</h1><div class='sub'>更新 2026-09-06 15:23 JST · USDJPY 156.22 · 目標 7 銘柄</div>
+<div class='alert quiet'><div class='icon'>💤</div><div><h3>行動なし</h3><p>売り条件・買い条件のいずれにも該当していません。何もしないのが今日の正解です。</p></div></div>
+<div class='hero'><div class='k'>累計損益率</div><div class='big down'>-20.07<span style='font-size:18px'>%</span></div><div class='grid'><div><div class='k'>前日比</div><div class='v '>+0.00%</div></div><div><div class='k'>現金比率</div><div class='v'>1.7%</div></div><div><div class='k'>保有</div><div class='v'>7 銘柄</div></div><div><div class='k'>経過</div><div class='v'>0 ヶ月</div></div></div></div>
+<h2>保有銘柄</h2>
+<div class='tablewrap'><table><tr><th>銘柄</th><th>現在値</th><th>比率</th><th>損益率</th></tr><tr><td><b>NEM</b></td><td>$128.09</td><td><div class='ratio'><div class='bar'><i style='width:100%'></i></div><span>33.5%</span></div></td><td class='up'>+6.13%</td></tr><tr><td><b>RGTI</b></td><td>$15.20</td><td><div class='ratio'><div class='bar'><i style='width:89%'></i></div><span>29.8%</span></div></td><td class='down'>-27.38%</td></tr><tr><td><b>RDW</b></td><td>$10.53</td><td><div class='ratio'><div class='bar'><i style='width:76%'></i></div><span>25.2%</span></div></td><td class='down'>-35.52%</td></tr><tr><td><b>QBTS</b></td><td>$16.58</td><td><div class='ratio'><div class='bar'><i style='width:11%'></i></div><span>3.6%</span></div></td><td class='down'>-0.90%</td></tr><tr><td><b>LAES</b></td><td>$2.42</td><td><div class='ratio'><div class='bar'><i style='width:8%'></i></div><span>2.6%</span></div></td><td class='up'>+0.41%</td></tr><tr><td><b>QUBT</b></td><td>$8.01</td><td><div class='ratio'><div class='bar'><i style='width:5%'></i></div><span>1.8%</span></div></td><td class='down'>-52.12%</td></tr><tr><td><b>IONQ</b></td><td>$39.52</td><td><div class='ratio'><div class='bar'><i style='width:5%'></i></div><span>1.7%</span></div></td><td class='up'>+1.28%</td></tr></table></div>
+<h2>セクター配分（上限 40%）</h2><div class='tablewrap'><table><tr><th>セクター</th><th>比率</th><th>判定</th></tr><tr><td>Technology</td><td><div class='ratio'><div class='bar'><i style='width:79%'></i></div><span>39.5%</span></div></td><td class=''>—</td></tr><tr><td>Materials</td><td><div class='ratio'><div class='bar'><i style='width:67%'></i></div><span>33.5%</span></div></td><td class=''>—</td></tr><tr><td>Industrials</td><td><div class='ratio'><div class='bar'><i style='width:50%'></i></div><span>25.2%</span></div></td><td class=''>—</td></tr></table></div>
+<h2>目標ウェイト</h2>
+<div class='tablewrap'><table><tr><th>銘柄</th><th>目標</th><th>セクター</th></tr><tr><td><b>IONQ</b></td><td>14.0%</td><td>Technology</td></tr><tr><td><b>LAES</b></td><td>14.0%</td><td>Technology</td></tr><tr><td><b>NEM</b></td><td>14.0%</td><td>Materials</td></tr><tr><td><b>QBTS</b></td><td>14.0%</td><td>Technology</td></tr><tr><td><b>QUBT</b></td><td>14.0%</td><td>Technology</td></tr><tr><td><b>RDW</b></td><td>14.0%</td><td>Industrials</td></tr><tr><td><b>RGTI</b></td><td>14.0%</td><td>Technology</td></tr></table></div>
+<div class='sub' style='margin-top:8px'>決定日 2026-09-06</div>
+<div class='disclaimer'>個人が自分の資産を運用した記録です。投資助言ではなく、特定の銘柄を推奨するものでもありません。金額は表示していません。</div></div></body></html>
